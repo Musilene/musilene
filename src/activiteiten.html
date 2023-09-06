@@ -14,7 +14,7 @@
 
 <body class="bg-zinc-800 text-gray-200">
   <nav id="navbar"
-    class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+    class="sticky bg-white px-4 sm:px-8 dark:bg-gray-900 w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600 z-40">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
       <a href="index.html" class="flex items-center">
         <img src="assets/figures/home-button_resized.webp" class="h-12 mr-3 sm:h-12" alt="Musilene Logo">
@@ -105,7 +105,7 @@
         <!-- Carousel wrapper -->
         <div class="mx-auto relative carousel-sizing overflow-hidden rounded-lg">
             {{ for img in images.sources }}
-              <div class="object-cover hidden duration-700 ease-in-out" data-carousel-item>
+              <div class="object-cover hidden duration-1000 ease-in-out" data-carousel-item>
                 <img src="{{ img }}" class="absolute block w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="">
               </div>
             {{ endfor }} 
