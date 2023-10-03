@@ -45,7 +45,7 @@ def process_file(filename: str, deploy):
         content = f.read()
 
     data = get_data_for_file(filename)
-    result = format_file(content, data)
+    result = format_file(content, data, get_data_filename(filename))
     if deploy:
         result = remove_file_extensions(result)
 
@@ -55,15 +55,13 @@ def process_file(filename: str, deploy):
     with open(build_file, "w") as f:
         f.write(result)
 
-
+def get_data_filename(filename: str) -> str:
+    return filename.replace("\\src\\", "\\content\\").replace("/src/", "/content/").replace(".html", ".json")
+    
 def get_data_for_file(filename: str) -> dict:
     data = get_common_data()
 
-    data_file = (
-        filename.replace("\\src\\", "\\content\\")
-        .replace("/src/", "/content/")
-        .replace(".html", ".json")
-    )
+    data_file = get_data_filename(filename)
     if os.path.exists(data_file):
         with open(data_file, "r") as f:
             file_data = json.load(f)

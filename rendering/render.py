@@ -2,7 +2,7 @@ import re
 from typing import Any, Dict
 
 
-def render_words(text: str, data: Dict[str, Any]) -> str:
+def render_words(text: str, data: Dict[str, Any], filename: str) -> str:
     word_pattern = r"{{\s*(?P<key>[\w\.]+)\s*}}"
 
     def replace(match, data):
@@ -11,7 +11,7 @@ def render_words(text: str, data: Dict[str, Any]) -> str:
         for nested_key in nested_keys:
             if nested_key not in data:
                 raise Exception(
-                    f"Is seems like you forgot to add the collection data for the key `{nested_key}`"
+                    f"Is seems like you forgot to add the collection data for the key `{key}` in {filename}"
                 )
             data = data[nested_key]
         return data
@@ -19,7 +19,7 @@ def render_words(text: str, data: Dict[str, Any]) -> str:
     return re.sub(word_pattern, lambda match: replace(match, data), text)
 
 
-def format_file(file_content: str, data: Dict[str, Any]) -> str:
+def format_file(file_content: str, data: Dict[str, Any], filename: str) -> str:
     for_pattern = r"{{\s*for\s+(?P<key>[\w\.]+)\s+in\s+(?P<collection>[\w\.]+)\s*}}\n*(?P<content>[\s\S]*?)\n*{{\s*endfor\s*}}\n*"
 
     def replace(match, data):
@@ -38,10 +38,10 @@ def format_file(file_content: str, data: Dict[str, Any]) -> str:
             )
         return "\n".join(
             [
-                render_words(match.group("content"), {match.group("key"): item})
+                render_words(match.group("content"), {match.group("key"): item}, filename)
                 for item in collection
             ]
         )
 
     formatted = re.sub(for_pattern, lambda match: replace(match, data), file_content)
-    return render_words(formatted, data)
+    return render_words(formatted, data, filename)
