@@ -1,6 +1,5 @@
 {
   "box1": {
-    "titel": "",
     "paragrafen": [
       "'Musilene' staat voor samen musiceren!",
       "Musilene werd opgericht in september 1988 door de toenmalige dirigente Mia Schroven. In het begin bestond de groep uit een twintigtal jonge muzikantjes, maar al snel groeide Musilene uit tot een kinder- en jeugdorkest. Tegen 2003 was het jeugdorkest uitgegroeid tot een volwaardig symfonisch orkest en stopte het kinderorkest om zo de focus meer op de jongerengroep te kunnen leggen.",
@@ -8,7 +7,6 @@
     ]
   },
   "box2": {
-    "titel": "",
     "paragrafen": [
       "Uiteraard gebeurt er bij Musilene veel meer dan enkel repeteren. Ieder jaar spelen we een drietal concerten in de omgeving van Westerlo. Enkele hoogtepunten van de voorbije jaren waren het promsconcert 'De Nacht van Musilene' ter ere van ons 25-jarig bestaan (2013) en 'Notes of Hope' (2016) dat we organiseerden in samenwerking met de koren Villanella en Villa Cantando. Toen brachten we een groots spektakel met meer dan 200 muzikanten en zangers die samen op het podium stonden. Ook voor november 2023 hebben we weer grootse plannen, want dan blaast het orkest al 35 kaarsjes uit!",
       "Bij Musilene draait alles om 'samen' en dat is dus niet enkel samen repeteren, maar ook samen dingen doen en vrienden voor het leven maken. Regelmatig organiseren we <a href='activiteiten.html' class='text-amber-500'>{{ nav.activiteiten }}</a> buiten de repetities waaronder filmavonden, workshops, survivals, sport- en spelactiviteiten, uitstapjes en nog zoveel meer. Daarnaast gaan we in de zomervakanties ook op repetitieweekend of op concertreis in het buitenland. Al in 1994 trok Musilene voor het eerst op reis naar Tsjechië. Daarna volgden nog reizen naar Duitsland, Oostenrijk, Nederland, Hongarije, Spanje, Italië en Frankrijk."
