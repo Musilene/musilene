@@ -1,6 +1,7 @@
 {
   "subtitel1": "Hoofdsponsors",
   "hoofdsponsors": ["kaneka.webp", "jeugdwerking-westerlo.png"],
-  "met_dank_aan": ["davidsfonds.svg", "vlamo.jpg"],
-  "subtitel2": "Met dank aan"
+  "subtitel2": "Met dank aan",
+  "met_dank_aan": ["davidsfonds.svg", "vlamo.jpg"]
+  
 }
