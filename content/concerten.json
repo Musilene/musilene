@@ -4,13 +4,7 @@
   "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a target='_blank' class='text-amber-500' href='https://events.flextickets.nl/event/in-dreams'>deze link</a>.",
   "concerts": [
     
-    {
-      "title": "Aperitiefconcert",
-      "date": "25 februari 2024, 11u00",
-      "addressLine1": "Refter Middenschool Westerlo",
-      "addressLine2": "Verlorenkost 1, Westerlo",
-      "link": "https://maps.app.goo.gl/nbeP2nVQGJ5tZNq7A"
-    },
+    
     {
       "title": "Lenteconcert",
       "date": "18 mei 2024, 20u00",
@@ -24,6 +18,20 @@
       "addressLine1": "De Zoerla",
       "addressLine2": "Gevaertlaan 1, Westerlo",
       "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
-    }
+    },
+    {
+      "title": "Lenteconcert",
+      "date": "17 mei 2025, 20u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
+    },
+    {
+      "title": "Herfstconcert",
+      "date": "12 november 2025, 20u00",
+      "addressLine1": "De Zoerla",
+      "addressLine2": "Gevaertlaan 1, Westerlo",
+      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
+    },
   ]
 }
