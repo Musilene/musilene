@@ -4,14 +4,7 @@
   "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a target='_blank' class='text-amber-500' href='https://events.flextickets.nl/event/musilene-lenteconcert2024'>deze link</a>.",
   "concerts": [
     
-    
-    
-    {
-      "title": "Open repetitie",
-      "date": "31 augustus 2024, 17u00",
-      "addressLine1": "Kunstencampus Westerlo",
-      "addressLine2": "Boerenkrijglaan 25"
-    },
+  
     {
       "title": "Open repetitie",
       "date": "7 september 2024, 17u00",
