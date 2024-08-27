@@ -22,7 +22,7 @@
     "afbeelding_beschrijving": "Slagwerk",
     "titel": "Most Wanted Instrumenten",
     "tekst_voor_lijst": "Uiteraard zijn alle nieuwe muzikanten van harte welkom, maar sommige instrumenten staan toch op onze 'most-wanted' lijst. Speel je:",
-    "wanted_instrumenten": ["hobo", "trombone", "tuba", "contrabas", "altviool"],
+    "wanted_instrumenten": ["hobo", "trombone", "tuba", "hoorn", "contrabas", "altviool", "piccolo", "fagot", "harp"],
     "tekst_na_lijst": "aarzel dan zeker niet om mee te komen spelen!"
   },
   "box4": {
@@ -30,7 +30,7 @@
     "afbeelding_beschrijving": "Cello",
     "titel": "Werkwijze",
     "paragrafen": [
-      "Doordat er twee dirigenten voor het orkest staan, heeft één van hen steeds de handen vrij om ook individuele muzikanten te helpen tijdens de repetities. Daarnaast splitsen we het orkest regelmatig op in kleinere groepjes zodat we sneller, meer in detail en meer instrumenttechnisch kunnen werken aan het repertoire.",
+      "Doordat we regelmatig externe coaches inschakelen voor de repetities, kunnen we ook meer individuele aandacht geven aan muzikanten. Daarnaast splitsen we het orkest regelmatig op in kleinere groepjes zodat we sneller, meer in detail en meer specifiek instrument-technisch kunnen werken aan het repertoire.",
       "Alle muziekstukken arrangeren we zelf voor het orkest, zodat we deze volledig kunnen afstemmen op het niveau van onze muzikanten en de samenstelling van het orkest. Het repertoire is steeds heel gevarieerd: zowel klassiek als wereldmuziek, pop- en rockmuziek, musical en film komen op de pupiter terecht. We verkennen zoveel mogelijk verschillende stijlen en houden daarbij uiteraard ook rekening met de inbreng van onze muzikanten. Voor elk wat wils dus."
     ]
   },
