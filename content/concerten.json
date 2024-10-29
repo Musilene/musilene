@@ -4,34 +4,7 @@
   "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a target='_blank' class='text-amber-500' href='https://events.flextickets.nl/event/musilene-lenteconcert2024'>deze link</a>.",
   "concerts": [
     
-    {
-      "title": "Open repetitie",
-      "date": "31 augustus 2024, 17u00",
-      "addressLine1": "Kunstencampus Westerlo",
-      "addressLine2": "Boerenkrijglaan 25",
-      "link": ""
-    },
-    {
-      "title": "Open repetitie",
-      "date": "7 september 2024, 17u00",
-      "addressLine1": "Kunstencampus Westerlo",
-      "addressLine2": "Boerenkrijglaan 25",
-      "link": ""
-    },
-    {
-      "title": "Open repetitie",
-      "date": "14 september 2024, 17u00",
-      "addressLine1": "Kunstencampus Westerlo",
-      "addressLine2": "Boerenkrijglaan 25",
-      "link": ""
-    },
-    {
-      "title": "Open repetitie",
-      "date": "21 september 2024, 17u00",
-      "addressLine1": "Kunstencampus Westerlo",
-      "addressLine2": "Boerenkrijglaan 25",
-      "link": ""
-    },
+  
     {
       "title": "Dancing Around the World",
       "date": "23 november 2024, 20u00",
