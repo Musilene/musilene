@@ -3,15 +3,6 @@
   "tekst": "Elk jaar spelen we een drietal concerten in de omgeving van Westerlo. Ons repertoire is heel gevarieerd en is een mix van klassiek, film- en wereldmuziek, musical en popmuziek. Kom dus zeker eens luisteren, ambiance gegarandeerd!",
   "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a target='_blank' class='text-amber-500' href='https://events.flextickets.nl/event/musilene-herfstconcert'>deze link</a>.",
   "concerts": [
-    
-  
-    {
-      "title": "Dancing Around the World",
-      "date": "23 november 2024, 20u00",
-      "addressLine1": "De Zoerla",
-      "addressLine2": "Gevaertlaan 1, Westerlo",
-      "link": "https://goo.gl/maps/1yQcN7KkgGjLUK4T8"
-    },
 
     {
       "title": "Aperitiefconcert",
