@@ -3,7 +3,6 @@
   "tekst": "Elk jaar spelen we een drietal concerten in de omgeving van Westerlo. Ons repertoire is heel gevarieerd en is een mix van klassiek, film- en wereldmuziek, musical en popmuziek. Kom dus zeker eens luisteren, ambiance gegarandeerd!",
   "voet_tekst": "Kaarten voor ons volgende concert kan je reserveren via <a target='_blank' class='text-amber-500' href='https://events.flextickets.nl/event/musilene-herfstconcert'>deze link</a>.",
   "concerts": [
-
     {
       "title": "Aperitiefconcert",
       "date": "23 februari 2025, 11u00",
@@ -11,7 +10,6 @@
       "addressLine2": "Verlorenkost 1, Westerlo",
       "link": "https://maps.app.goo.gl/FyU3AcaFDgGi4yff8"
     },
-
     {
       "title": "Helden en Legenden",
       "date": "17 mei 2025, 20u00",
