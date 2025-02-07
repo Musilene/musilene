@@ -29,6 +29,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+      - name: Install system dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y libjpeg-dev zlib1g-dev
       - uses: actions/setup-node@v3
         with:
           node-version: 18
